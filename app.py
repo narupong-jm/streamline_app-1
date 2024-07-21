@@ -33,4 +33,5 @@ c = (
         tooltip=['island', 'sex']
     ).interactive()
 )
+st.header("Scatter Chart")
 st.altair_chart(c, use_container_width=True)
